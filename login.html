@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kunle Store</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+    </head>
+    <body class="bg-warning">
+        <div class="d-flex border fixed-top justify-content-between pt-1 bg-dark">
+            <h3><a href="index.html" class="text-warning p-5 font-weight-normal"><em>KUNLE STORE</em></a></h3>
+            <ul class="list-inline pr-5">
+                <li class="list-inline-item"><a href="#" class="text-decoration-none"><h4 class="text-warning font-weight-normal" id="item">ITEMS</h4></a</li>
+                <li class="list-inline-item"></li>
+                <li class="list-inline-item"><a><h4 class="text-warning font-weight-normal">LOGIN</h5></a></li>
+                <li class="list-inline-item">
+                    <form class="form-inline" action="/action_page.php">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search products">
+                        <button class="btn btn-dark text-warning" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="d-flex justify-content-around" id="show1" style="display:none">
+            <ul class="list-unstyled a" style="display:none">
+                <li>PHONE</li>
+                <li>iPhone</li>
+                <li>Samsung</li>
+                <li>Infinix</li>
+                <li>Tecno</li>
+            </ul>
+            <ul class="list-unstyled a" style="display:none">
+                <li>PLASMA TV</li>
+                <li>Samasung</li>
+                <li>Sony</li>
+                <li>Panasonic</li>
+                <li>LG</li>
+            </ul>
+            <ul class="list-unstyled a" style="display:none">
+                <li>GAMES</li>
+                <li>PlayStation 2</li>
+                <li>PlayStattion 3</li>
+                <li>PlayStation 4</li>
+                <li>Xbox</li>
+            </ul>
+            <ul class="list-unstyled a" style="display:none">
+                <li>LAPTOP</li>
+                <li>Hp</li>
+                <li>Dell</li>
+                <li>Toshiba</li>
+                <li>Mac Book</li>
+                <li>Samsung</li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="d-flex justify-content-center p-3">
+                <form action="/action_page.php" class="w-50">
+                    <h4 class="text-center"><strong>Register to Login:</strong></h4>
+                    <br>
+                    <div class="form-group">
+                        <label for="name">First Name:</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter first name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" class="form-control" id="last_name" placeholder="Enter last name" name="last_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Phone No:</label><br>
+                        <input type="numbet" class="form-control" id="number" placeholder="Enter phone no" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label><br>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="pswd">
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+               </form>
+             </div>
+        </div>
+        <div class="jumbotron bg-dark text-warning text-center p-1 mb-0">
+            <p class="text-center">Yusuf @tech 2019</p>
+        <p>Contact us: 08065628103 adefabiyusuf@gmail.com</p>
+        </div>
+        <script src="main.js"></script>
+    </body>
